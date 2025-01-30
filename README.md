@@ -12,3 +12,6 @@ Blog sobre educação, mentalidade, desenvolvimento pessoal, saúde, beleza e em
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Kpedro/blog-liberdade-resultados.git
+=======
+# blog-liberdade-resultados
+
