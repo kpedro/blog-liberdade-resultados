@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #2A3F54;
+    --secondary-color: #2ECC71;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(42,63,84,0.9), rgba(42,63,84,0.7)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+footer {
+    background-color: var(--primary-color);
+}
