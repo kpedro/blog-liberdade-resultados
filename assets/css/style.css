@@ -600,5 +600,192 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #f0a500; /* Cor de destaque no hover */
 }
+/* Ajustes no corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #002855;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img {
+    max-height: 50px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Conteúdo principal */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-container {
+    margin-bottom: 20px;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comments h2 {
+    margin-bottom: 10px;
+  }
+  
+  .comments form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .comments form input,
+  .comments form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comments form button {
+    background-color: #002855;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .comments form button:hover {
+    background-color: #00509e;
+  }
+  
+  #comments-list {
+    margin-top: 20px;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #002855;
+    color: white;
+    margin-top: 20px;
+  }
+  /* Cabeçalho */
+header {
+    background-color: #002855;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
 
-.
+header .logo img {
+    max-height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Área do Post */
+#post-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Seção de Comentários */
+.comment-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comment-section h2 {
+    margin-bottom: 20px;
+}
+
+.comment-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comment-section input,
+.comment-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-section button {
+    background-color: #002855;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.comment-section button:hover {
+    background-color: #004080;
+}
+
+.comment {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}

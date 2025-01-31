@@ -1,27 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const markdownFile = new URLSearchParams(window.location.search).get("file");
-    if (markdownFile) {
-        fetch(`posts/${markdownFile}`)
-            .then((response) => {
-                if (!response.ok) throw new Error("Erro ao carregar o arquivo.");
-                return response.text();
-            })
-            .then((markdown) => {
-                const html = marked.parse(markdown); // Certifique-se de usar `marked.parse`
-                document.getElementById("post-content").innerHTML = html;
-            })
-            .catch((error) => {
-                document.getElementById("post-content").innerHTML = `
-                    <p>Erro ao carregar o post! Por favor, tente novamente mais tarde.</p>
-                    <p>${error.message}</p>
-                `;
-            });
-    } else {
-        document.getElementById("post-content").innerHTML =
-            "Nenhum post foi especificado.";
-    }
-});
-document.addEventListener("DOMContentLoaded", function () {
     // Renderização do post
     const markdownFile = new URLSearchParams(window.location.search).get("file");
     if (markdownFile) {
