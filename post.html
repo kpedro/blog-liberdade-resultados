@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post - Liberdade e Resultados</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo-blog.png" alt="Liberdade e Resultados">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="politica.html">Política</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <!-- Área do Post -->
+        <div id="post-content">
+            Carregando post...
+        </div>
+
+        <!-- Seção de Comentários -->
+        <section class="comment-section">
+            <h2>Deixe seu comentário</h2>
+            <form id="comment-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+                <label for="comment">Comentário:</label>
+                <textarea id="comment" name="comment" rows="5" placeholder="Digite seu comentário" required></textarea>
+
+                <button type="submit">Enviar Comentário</button>
+            </form>
+
+            <!-- Lista de Comentários -->
+            <div id="comments">
+                <h3>Comentários:</h3>
+                <p>Ainda não há comentários. Seja o primeiro a comentar!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Liberdade e Resultados. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
