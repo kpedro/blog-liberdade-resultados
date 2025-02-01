@@ -2,7 +2,7 @@
 📅 *Publicado em: 31 de janeiro de 2025*  
 ✍️ *Por: Ana Oliveira*  
 
-![Mentalidade Empreendedora](https://i.postimg.cc/Xq1R4Gfj/aleh-tsikhanau-F9xla-URVP-A-unsplash.jpg)
+![Mentalidade Empreendedora](https://i.postimg.cc/xdshKNZK/mediensturmer-a-Wf7mjww-JJo-unsplash.jpg)
 
 O que diferencia um empreendedor bem-sucedido dos demais? **A mentalidade**. Cultivar uma forma de pensar voltada para o crescimento pode transformar sua trajetória.
 

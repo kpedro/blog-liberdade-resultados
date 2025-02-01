@@ -2,7 +2,7 @@
 📅 *Publicado em: 31 de janeiro de 2025*  
 ✍️ *Por: Marcos Pereira*  
 
-![Marketing de Relacionamento](../assets/images/marketing-relacionamento.jpg)
+![Marketing de Relacionamento](https://i.postimg.cc/gJn54k91/new-data-services-UO-QYR28h-S0-unsplash.jpg)
 
 No mundo dos negócios, **as pessoas compram de quem confiam**. Construir relações sólidas é a chave para um marketing eficaz e sustentável.
 

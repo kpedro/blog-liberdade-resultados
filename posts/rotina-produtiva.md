@@ -5,7 +5,7 @@
 
 ---
 
-![Rotina Produtiva](../assets/images/rotina-produtiva.jpg)
+![Rotina Produtiva](https://i.postimg.cc/NGCSyXXY/john-schnobrich-Fl-Pc9-Voc-J4-unsplash-1.jpg)
 
 A produtividade não está relacionada a fazer mais coisas, mas sim a fazer as coisas certas no momento certo. Aqui estão algumas dicas essenciais para tornar sua rotina mais produtiva e eficiente.
 
